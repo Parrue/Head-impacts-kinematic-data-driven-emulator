@@ -4,7 +4,7 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [INPUT and OUTPUT of the program](#INPUT and OUTPUT of the program)
+- [INPUT and OUTPUT of the program](#INPUT-and-OUTPUT-of-the-program)
 - [Before Installation](#Before Installation)
 
 
