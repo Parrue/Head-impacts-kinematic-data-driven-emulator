@@ -4,8 +4,8 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [INPUT and OUTPUT of the program](#INPUT-and-OUTPUT-of-the-program)
 - [Before Installation](#Before-Installation)
+- [INPUT and OUTPUT of the program](#INPUT-and-OUTPUT-of-the-program)
 
 
 ## Introduction
@@ -22,5 +22,18 @@ In order to run the stand-alone program you need to install MATLAB Runtime R2020
 
 The data-driven emulator requires INPUT parameters from the user. Those parameters are:
 
-- **Number of required data**: 
-- issues (waffle.io maybe)
+- **Number of required data (n)**: The number of linear acceleration, angular velocity and angular acceleration impulses desired to be generated.
+- **Number of basis modes (k)**: The number of modes used for generating data. The maximum modes depends on the parameter: For angular velocity is 15, for angular acceleration is 21 and for linear acceleration is 29.
+- **Magnification (m)**: TO BE COMPLETED.
+
+The Output will be a set of 9 .csv files that contains a matrix of 100xn in which each column represent a single impulse of 100ms of duration, with the following nomenclature:
+
+- LaAP:  Linear acceleration Antero-Posterior direction.
+- LaLat: Linear acceleration Lateral direction.
+- LaIS:  Linear acceleration Inferior-Superior direction.
+- oCor:  Angular velocity Coronal plane.
+- oSag:  Angular velocity Sagittal plane.
+- oAx:   Angular velocity Axial plane.
+- aCor:  Angular acceleration Coronal plane.
+- aSag:  Angular acceleration Sagittal plane.
+- aAx:   Angular acceleration Axial plane.
