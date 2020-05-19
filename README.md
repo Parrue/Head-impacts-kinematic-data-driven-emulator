@@ -6,7 +6,7 @@
 - [Introduction](#introduction)
 - [Before Installation](#Before-Installation)
 - [INPUT and OUTPUT of the program](#INPUT-and-OUTPUT-of-the-program)
-- [Installation Guideline](#Installation-guidelines)
+- [Installation guideline](#Installation-guideline)
 - [Running the Program](#running-the-program)
 
 
