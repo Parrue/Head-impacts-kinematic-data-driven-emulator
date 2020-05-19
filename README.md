@@ -53,7 +53,7 @@ After the installation of MATLAB Runtime you can install the Data-driven Emulato
 > Windows
 
 1) Open CMD as administrator.
-2) Go to the folder path where the program was installed. Use "cd \" for going to the root folder of the respective hard disk, "dir" to see folders of the current path and "cd "**Name of folder**"" to navigate.
+2) Go to the folder path where the program was installed. Use "cd *\*" for going to the root folder of the respective hard disk, "dir" to see folders of the current path and "cd "**Name of folder**"" to navigate.
 3) Once when you are in the installation folder use the following command to run the program: "application\DDEmulator".
 
 > Mac OS X
