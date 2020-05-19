@@ -6,6 +6,8 @@
 - [Introduction](#introduction)
 - [Before Installation](#Before-Installation)
 - [INPUT and OUTPUT of the program](#INPUT-and-OUTPUT-of-the-program)
+- [Installation Guideline](#Installation-guidelines)
+- [Running the Program](#running-the-program)
 
 
 ## Introduction
@@ -28,9 +30,9 @@ The data-driven emulator requires INPUT parameters from the user. Those paramete
 - **Number of basis modes (k)**: The number of modes used for generating data. The maximum modes depends on the parameter: For angular velocity is 15, for angular acceleration is 21 and for linear acceleration is 29.
 - **Magnification (m)**: TO BE COMPLETED.
 
-> Output
+> OUTPUT
 
-The Output will be a set of 9 .csv files that contains a matrix of 100xn in which each column represent a single impulse of 100ms of duration, with the following nomenclature:
+The Output will be a set of 9 .csv files. Each one contains a matrix of 100xn in which each column represent a single impulse of 100ms of duration, with the following nomenclature:
 
 - LaAP:  Linear acceleration Antero-Posterior direction.
 - LaLat: Linear acceleration Lateral direction.
@@ -41,3 +43,10 @@ The Output will be a set of 9 .csv files that contains a matrix of 100xn in whic
 - aCor:  Angular acceleration Coronal plane.
 - aSag:  Angular acceleration Sagittal plane.
 - aAx:   Angular acceleration Axial plane.
+
+## Installation guideline
+
+After the installation of MATLAB Runtime you can install the Data-driven Emulator. Please download the executable 
+
+## Running the program
+
