@@ -48,7 +48,7 @@ The Output will be a set of 9 .csv files. Each one contains a matrix of 100xn in
 
 After the installation of MATLAB Runtime you can install the Data-driven Emulator. Please download the executable file, open it and follow the installation instructions. Default directory: "C:\Program Files\DDEmulator"
 
-
+<img src="https://user-images.githubusercontent.com/65571091/82385511-21b18a80-99e7-11ea-9472-e43e0c49ca1e.PNG" width="45%">
 
 ## Running the program
 
@@ -58,7 +58,7 @@ After the installation of MATLAB Runtime you can install the Data-driven Emulato
 2) Go to the folder path where the program was installed. Use "cd \ " for going to the root folder of the respective hard disk, "dir" to see folders of the current path and "cd "**Name of folder**"" to navigate.
 3) Once when you are in the installation folder use the following command to run the program: "application\DDEmulator".
 
-
+</img> <img src="https://user-images.githubusercontent.com/65571091/82385512-224a2100-99e7-11ea-8d77-ba67142e86c3.PNG" width="45%"></img> 
 
 > Mac OS X
 
