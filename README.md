@@ -20,11 +20,15 @@ In order to run the stand-alone program you need to install MATLAB Runtime R2020
 
 ## INPUT and OUTPUT of the program
 
+> INPUT
+
 The data-driven emulator requires INPUT parameters from the user. Those parameters are:
 
 - **Number of required data (n)**: The number of linear acceleration, angular velocity and angular acceleration impulses desired to be generated.
 - **Number of basis modes (k)**: The number of modes used for generating data. The maximum modes depends on the parameter: For angular velocity is 15, for angular acceleration is 21 and for linear acceleration is 29.
 - **Magnification (m)**: TO BE COMPLETED.
+
+> Output
 
 The Output will be a set of 9 .csv files that contains a matrix of 100xn in which each column represent a single impulse of 100ms of duration, with the following nomenclature:
 
