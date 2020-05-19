@@ -8,7 +8,7 @@
 - [INPUT and OUTPUT of the program](#INPUT-and-OUTPUT-of-the-program)
 - [Installation guideline](#Installation-guideline)
 - [Running the Program](#running-the-program)
-
+- [Results](#results)
 
 ## Introduction
 
@@ -46,7 +46,27 @@ The Output will be a set of 9 .csv files. Each one contains a matrix of 100xn in
 
 ## Installation guideline
 
-After the installation of MATLAB Runtime you can install the Data-driven Emulator. Please download the executable 
+After the installation of MATLAB Runtime you can install the Data-driven Emulator. Please download the executable file, open it and follow the installation instructions.
 
 ## Running the program
+
+> Windows
+
+1) Open CMD and go to the folder path where the program was installed. Use "cd \" for going to the root folder of the respective hard disk, "dir" to see folders of the current path and "cd "**Name of folder**"" to navigate.
+
+2) Once when you are in the installation folder use the following command to run the program: "application\NAMEPROGRAM".
+
+> Mac OS X
+
+1) You must set the DYLD_LIBRARY_PATH environment variable in the command window for the standalone application to work as follows: $export DYLD_LIBRARY_PATH = MCR_ROOT/v92/runtime/maci64:MCR_ROOT/v92/sys/os/maci64:MCR_ROOT/v92/bin/maci64
+
+2) Use the following command for running the program: "./NAMEPROGRAM.app/Contents/MacOS/NAMEPROGRAM".
+
+> Linux
+
+Open the terminal in the installation folder and use this command: "./NAMEPROGRAM"
+
+## Results
+
+The head impacts kinematic data stored in csv files will be generated in the installation folder.
 
